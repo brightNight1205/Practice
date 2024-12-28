@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+</head>
+<body>
+  
+    <label for="name">Name*</label><br>
+    <input type="text" id="name" placeholder="Enter Your name ..." />
+    <button onclick="showAlert()">Submit</button>
+
+    <script>
+    
+        function showAlert() {
+            
+            const inputValue = document.getElementById('name').value;
+
+            alert(`ohh,Hello !, ${inputValue}!`);
+        }
+    </script>
+</body>
+</html>
+
